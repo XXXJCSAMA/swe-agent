@@ -1,0 +1,17 @@
+{
+  "name": "wse-agent",
+  "version": "0.1.0",
+  "description": "WSE Agent - TypeScript + Python hybrid architecture",
+  "private": true,
+  "workspaces": [
+    "ts",
+    "py"
+  ],
+  "scripts": {
+    "dev:ts": "cd ts && npm run dev",
+    "dev:api": "cd ts && npm run dev:api",
+    "dev:frontend": "cd ts && npm run dev:frontend",
+    "install:ts": "cd ts && npm install",
+    "install:py": "cd py && pip install -r requirements.txt"
+  }
+}
